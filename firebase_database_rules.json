@@ -1,0 +1,75 @@
+{
+  "rules": {
+    "parents": {
+      "$parentId": {
+        ".read": "auth != null && auth.uid == $parentId",
+        ".write": "auth != null && auth.uid == $parentId"
+      }
+    },
+    "students": {
+      ".indexOn": ["parentId", "uid", "currentStatus"],
+      "$studentId": {
+        ".read": "auth != null && (data.child('parentId').val() == auth.uid || root.child('parents').child(auth.uid).child('linkedStudentIds').child($studentId).val() == true || root.child('Parents').child(auth.uid).child('child_id').val() == $studentId)",
+        ".write": "auth != null"
+      }
+    },
+    "events": {
+      ".indexOn": ["studentId", "uid", "timestamp"],
+      ".read": "auth != null && query.orderByChild == 'studentId' && (root.child('parents').child(auth.uid).child('linkedStudentIds').child(query.equalTo).val() == true || root.child('students').child(query.equalTo).child('parentId').val() == auth.uid || root.child('Parents').child(auth.uid).child('child_id').val() == query.equalTo)",
+      "$eventId": {
+        ".read": "auth != null && (root.child('parents').child(auth.uid).child('linkedStudentIds').child(data.child('studentId').val()).val() == true || root.child('students').child(data.child('studentId').val()).child('parentId').val() == auth.uid || root.child('Parents').child(auth.uid).child('child_id').val() == data.child('studentId').val())",
+        ".write": "auth != null"
+      }
+    },
+    "notifications": {
+      ".indexOn": ["studentId", "uid", "timestamp"],
+      ".read": "auth != null && query.orderByChild == 'studentId' && (root.child('parents').child(auth.uid).child('linkedStudentIds').child(query.equalTo).val() == true || root.child('students').child(query.equalTo).child('parentId').val() == auth.uid || root.child('Parents').child(auth.uid).child('child_id').val() == query.equalTo)",
+      "$notificationId": {
+        ".read": "auth != null && (root.child('parents').child(auth.uid).child('linkedStudentIds').child(data.child('studentId').val()).val() == true || root.child('students').child(data.child('studentId').val()).child('parentId').val() == auth.uid || root.child('Parents').child(auth.uid).child('child_id').val() == data.child('studentId').val())",
+        ".write": "auth != null"
+      }
+    },
+    "alerts": {
+      ".indexOn": ["studentId", "dedupeKey", "timestamp"],
+      ".read": "auth != null && query.orderByChild == 'studentId' && (root.child('parents').child(auth.uid).child('linkedStudentIds').child(query.equalTo).val() == true || root.child('students').child(query.equalTo).child('parentId').val() == auth.uid || root.child('Parents').child(auth.uid).child('child_id').val() == query.equalTo)",
+      "$alertId": {
+        ".read": "auth != null && (root.child('parents').child(auth.uid).child('linkedStudentIds').child(data.child('studentId').val()).val() == true || root.child('students').child(data.child('studentId').val()).child('parentId').val() == auth.uid || root.child('Parents').child(auth.uid).child('child_id').val() == data.child('studentId').val())",
+        ".write": "auth != null"
+      }
+    },
+    "pendingAlerts": {
+      ".indexOn": ["studentId", "dueAt", "dedupeKey"],
+      "$studentId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "devices": {
+      ".indexOn": ["location", "lastSeen", "online"],
+      "$deviceId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "Parents": {
+      "$parentId": {
+        ".read": "auth != null && auth.uid == $parentId",
+        ".write": "auth != null && auth.uid == $parentId"
+      }
+    },
+    "Students": {
+      ".indexOn": ["status"],
+      "$uid": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "Logs": {
+      ".indexOn": ["uid", "timestamp"],
+      "$logId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    }
+  }
+}
