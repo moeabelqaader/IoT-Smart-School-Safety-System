@@ -23,8 +23,6 @@ Whenever a student scans an RFID card, the system instantly:
 ---
 
 # 🚀 Features
-<img width="556" height="107" alt="image" src="https://github.com/user-attachments/assets/1d212931-dff6-41d3-a06f-6b4583625a46" />
-
 
 - ✅ RFID-Based Student Identification
 - ✅ School Gate Monitoring
@@ -39,6 +37,8 @@ Whenever a student scans an RFID card, the system instantly:
 - ✅ Wi-Fi Communication
 - ✅ Cloud Data Synchronization
 
+  <img width="556" height="107" alt="image" src="https://github.com/user-attachments/assets/1d212931-dff6-41d3-a06f-6b4583625a46" />
+
 ---
 
 # 🏗️ System Architecture
@@ -50,16 +50,8 @@ Whenever a student scans an RFID card, the system instantly:
 
 # 🔌 Hardware Components
 
-| Component | Description |
-|------------|-------------|
-| ESP32 | Main Microcontroller |
-| MFRC522 RFID Reader | Reads Student RFID Cards |
-| RFID Card | Student Identification |
-| OLED Display | Displays Student Status |
-| Green LED | Valid Card Indicator |
-| Red LED | Invalid Card Indicator |
-| Buzzer | Audio Feedback |
-| Wi-Fi | Cloud Communication |
+<img width="2194" height="1394" alt="image" src="https://github.com/user-attachments/assets/21945a09-4bff-4512-a026-d65de4680b48" />
+
 
 ---
 
