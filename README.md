@@ -20,6 +20,9 @@ Whenever a student scans an RFID card, the system instantly:
 - Displays the status on the OLED screen
 - Sends an instant notification to the parent
 
+  <img width="1083" height="302" alt="image" src="https://github.com/user-attachments/assets/70bde86a-5e07-40f7-b666-139ad3fef61a" />
+
+
 ---
 
 # 🚀 Features
@@ -37,20 +40,20 @@ Whenever a student scans an RFID card, the system instantly:
 - ✅ Wi-Fi Communication
 - ✅ Cloud Data Synchronization
 
-  <img width="556" height="107" alt="image" src="https://github.com/user-attachments/assets/1d212931-dff6-41d3-a06f-6b4583625a46" />
+  <img width="556" height="107" alt="image" src="https://github.com/user-attachments/assets/2144634b-6b79-4cb7-b28d-87c3503708f7" />
+
 
 ---
 
 # 🏗️ System Architecture
-<img width="991" height="573" alt="image" src="https://github.com/user-attachments/assets/88acd417-dceb-4b87-9877-7ed007ecc5b7" />
 
-```
+<img width="1083" height="302" alt="image" src="https://github.com/user-attachments/assets/60d6d4e3-569d-46cb-abcd-7e2569864ab8" />
 
 ---
 
 # 🔌 Hardware Components
 
-<img width="2194" height="1394" alt="image" src="https://github.com/user-attachments/assets/21945a09-4bff-4512-a026-d65de4680b48" />
+<img width="1404" height="893" alt="image" src="https://github.com/user-attachments/assets/23bf7ed1-8b60-4161-9f99-d171d0c72da8" />
 
 
 ---
@@ -144,7 +147,9 @@ October High Institute for Engineering & Technology
 ---
 
 # 📷 Project Gallery
-<img width="1378" height="775" alt="project" src="https://github.com/user-attachments/assets/dfe59754-9f76-4684-9913-e72dbceb668c" />
+
+<img width="1378" height="775" alt="project" src="https://github.com/user-attachments/assets/4bd74574-069d-4a0e-9fc3-fb4e1daae449" />
+
 
 ---
 
@@ -165,4 +170,3 @@ Graduation Project (2025–2026)
 This project was developed for academic purposes as a Graduation Project.
 
 © 2026 Team Members. All Rights Reserved.
-
