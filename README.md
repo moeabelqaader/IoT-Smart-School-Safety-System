@@ -166,15 +166,7 @@ October High Institute for Engineering & Technology
 ---
 
 # 📷 Project Gallery
-
-> Add photos of:
->
-> - School Gate Unit
-> - School Bus Unit
-> - OLED Display
-> - Mobile Application
-> - System Architecture
-> - Graduation Banner
+<img width="1378" height="775" alt="project" src="https://github.com/user-attachments/assets/dfe59754-9f76-4684-9913-e72dbceb668c" />
 
 ---
 
@@ -195,4 +187,4 @@ Graduation Project (2025–2026)
 This project was developed for academic purposes as a Graduation Project.
 
 © 2026 Team Members. All Rights Reserved.
-<img width="1378" height="775" alt="project" src="https://github.com/user-attachments/assets/dfe59754-9f76-4684-9913-e72dbceb668c" />
+
