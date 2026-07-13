@@ -6,6 +6,10 @@ As the Team Leader, I led the project planning, system architecture, hardware an
 
 The system automates student attendance monitoring using RFID technology, ESP32 microcontrollers, Firebase Realtime Database, and a Flutter mobile application. It provides real-time attendance tracking, cloud synchronization, OLED status display, and instant notifications to parents.
 
+<img width="1378" height="775" alt="project" src="https://github.com/user-attachments/assets/09b6c270-ee00-4eb5-a90d-aca8c7716b3f" />
+
+
+
 ## Technologies
 
 - ESP32
