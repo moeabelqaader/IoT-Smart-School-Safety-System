@@ -47,7 +47,8 @@ Whenever a student scans an RFID card, the system instantly:
 
 # 🏗️ System Architecture
 
-<img width="1083" height="302" alt="image" src="https://github.com/user-attachments/assets/60d6d4e3-569d-46cb-abcd-7e2569864ab8" />
+<img width="634" height="367" alt="image" src="https://github.com/user-attachments/assets/27b1e1ed-fb4b-41b5-b941-69064f17fe6f" />
+
 
 ---
 
