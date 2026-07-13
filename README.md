@@ -23,6 +23,8 @@ Whenever a student scans an RFID card, the system instantly:
 ---
 
 # 🚀 Features
+<img width="556" height="107" alt="image" src="https://github.com/user-attachments/assets/1d212931-dff6-41d3-a06f-6b4583625a46" />
+
 
 - ✅ RFID-Based Student Identification
 - ✅ School Gate Monitoring
@@ -40,24 +42,8 @@ Whenever a student scans an RFID card, the system instantly:
 ---
 
 # 🏗️ System Architecture
+<img width="991" height="573" alt="image" src="https://github.com/user-attachments/assets/88acd417-dceb-4b87-9877-7ed007ecc5b7" />
 
-```
-RFID Card
-     │
-     ▼
-MFRC522 RFID Reader
-     │
-     ▼
-ESP32 Microcontroller
-     │
-     ▼
-Firebase Realtime Database
-     │
-     ▼
-Flutter Mobile Application
-     │
-     ▼
-Parent Notification
 ```
 
 ---
